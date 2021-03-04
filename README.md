@@ -1,3 +1,3 @@
 # JsHTMLForm
-Created with CodeSandbox
-# Aarav is a collab now!
+
+# This sign up form has been created with "BasicHTMLForm" as the foundation. JavaScript has been added for password validation. 

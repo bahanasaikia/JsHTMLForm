@@ -1,14 +1,10 @@
 .hero-image {
-background-image: linear-gradient(rgb(255, 255, 255), rgba(255,255,255,0)), url("hero image.jpg");
+background-image: linear-gradient(rgb(255, 255, 255), rgba(255,255,255,0)), url("heroImage.jpg"); 
 height: 350px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-}
-
-{
-  box-sizing: border-box 
 }
 
 
@@ -36,7 +32,7 @@ padding: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  sans-serif;
 }
 
-input[type=text], input[type=email], input[type=tel], select, textarea {
+input[type=text], input[type=password], input[type=email], input[type=tel], select, textarea {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
   padding: 12px; 
   border: 1px solid #e0e0e0;
@@ -45,6 +41,34 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   margin-bottom: 16px; 
   box-sizing: border-box;
   resize: vertical;
+}
+
+#message {
+font-size: 12px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+display: none;
+background: #f1f1f1;
+color: #000;
+position: relative;
+padding: 20px;
+margin-top: 10px;
+}
+
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
 }
 
 input[type=tel] {
@@ -60,7 +84,7 @@ width: 100%;
 }
 
 
-input[type=text], input[type=email], textarea {
+input[type=text], input[type=password], input[type=email], textarea {
   width: 100%; 
 }
 
